@@ -1,0 +1,120 @@
+Microsoft Windows [Version 10.0.19043.1766]
+(c) Microsoft Corporation. All rights reserved.
+
+D:\WebOps_summerschool>git -init
+unknown option: -init
+usage: git [-v | --version] [-h | --help] [-C <path>] [-c <name>=<value>]     
+           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]    
+           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--bare]
+           [--git-dir=<path>] [--work-tree=<path>] [--namespace=<name>]       
+           [--super-prefix=<path>] [--config-env=<name>=<envvar>]
+           <command> [<args>]
+
+D:\WebOps_summerschool>git init
+Reinitialized existing Git repository in D:/WebOps_summerschool/.git/
+
+D:\WebOps_summerschool>git status
+On branch master
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        demo.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+D:\WebOps_summerschool>git commit -m "First commit"
+On branch master
+
+Initial commit
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        demo.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+Untracked files:
+  (use "git add <file>..." to include in what 
+will be committed)
+        demo.txt
+
+nothing added to commit but untracked files present (use "git add" to track)                will be committed)
+
+D:\WebOps_summerschool>git commit -m "First commit"                                         esent (use "git add" to track)
+On branch master
+                                              mmit"
+Initial commit
+
+Untracked files:
+  (use "git add <file>..." to include in what 
+will be committed)
+        demo.txt                              will be committed)
+
+nothing added to commit but untracked files pr
+                                              esent (use "git add" to track)
+D:\WebOps_summerschool>git status
+On branch master
+nothing to commit, working tree clean
+
+D:\WebOps_summerschool>git status
+On branch master
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   demo.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+D:\WebOps_summerschool>git status
+On branch master
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   demo.txt
+
+Untracked files:
+  (use "git add <file>..." to include in what 
+will be committed)
+        demo2.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+D:\WebOps_summerschool>git add.
+git: 'add.' is not a git command. See 'git --help'.
+
+The most similar command is
+        add
+
+D:\WebOps_summerschool>git add .
+
+D:\WebOps_summerschool>git status
+On branch master
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        modified:   demo.txt
+        new file:   demo2.txt
+
+
+D:\WebOps_summerschool>git commit -m "second commit"
+[master b0d2db7] second commit
+ 2 files changed, 1 insertion(+)
+ create mode 100644 demo2.txt
+
+D:\WebOps_summerschool>git status
+On branch master
+nothing to commit, working tree clean
+
+D:\WebOps_summerschool>git log
+commit b0d2db76f4d131f1f49c4b74ee0e52b32e687317 (HEAD -> master)
+Author: Sreedars SJ <sreedars2001@gmail.com>
+Date:   Fri Jul 15 17:20:48 2022 +0530
+
+    second commit
+
+commit a6218dd2107a84ac4b335641084261cb55507f08
+Author: Sreedars SJ <sreedars2001@gmail.com>
+Date:   Fri Jul 15 17:17:50 2022 +0530
+
+    First commit
